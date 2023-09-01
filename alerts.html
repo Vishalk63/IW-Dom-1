@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Showing Alerts</title>
+</head>
+
+<body>
+    <button onclick="showFirstName()" id="fname">VISHAL</button>
+    <button onclick="showLastName()" id="lname">KACHARE</button>
+    <button onclick="showFullName()" id="full">KACHARE VISHAL</button>
+    <script type="text/javascript">
+
+
+// Complete all the functions by creating a copy of 
+// the above template with the file name alerts.html
+
+
+
+        let fname = document.getElementById("fname");
+        let lname = document.getElementById("lname");
+        let full =  document.getElementById("full");
+        function showFirstName() {
+            // Complete to show an alert with your first name 
+            alert(fname.innerText)
+        }
+
+        function showLastName() {
+            // Complete to show an alert with your last name  
+            alert(lname.innerText)           
+        }
+
+        function showFullName() {
+            // Complete to show an alert with your full name (firstname lastname)
+            alert(lname.innerText+fname.innerText)
+
+        }
+
+
+    </script>
+</body>
+
+</html>
